@@ -1,1 +1,12 @@
-
+body{
+  background:purple;
+}
+form label{
+  display:block;
+  color:white;
+  font-size:25px;
+}
+form imput{
+  display:block;
+  background:yeloow;
+  font-size:25px;
