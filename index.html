@@ -9,22 +9,22 @@
   <main>
     <form>
       <label  for="nome"> NOME</label>
-      <input type="text" id="nome">
+      <input type="text" id="nome" required>
         
         <label  for="email"> EMAIL</label>
-      <input type="text" id="email">
-        
-        <label  for="idade"> IDADE</label>
-      <input type="text" id="idade">
+      <input type="email" id="email"required>
+      <label for="senha"> SENHA</label>
+      <input type="password" id="password"required> 
+   
        <div>
          <label for="wpp">watsapp</label>
-         <input type="radio" name="wpp" id="wpp">
+         <input type="tel" name="wpp" id="wpp" required>
            
            <label for="tel">TELEFONE</label>
-         <input type="radio" name="tel" id="tel">
+         <input type="radio" name="tel" id="tel" required>
            <br>
-           <label for="sn">SIM OU NAO</label>
-         <input type="checkbox" name="sn" id="sn">
+           <label for="calendário">CALENDÁRIO</label>
+         <input type="date" name="calendário" id="calendário" required>
          
         </div>
            <input type="submit" value="enviar dados">
